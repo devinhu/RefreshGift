@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:id="@+id/gift_con"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_centerInParent="true"
+        android:background="@color/white30"
+        android:orientation="vertical"
+        android:padding="5dp"/>
+</RelativeLayout>
